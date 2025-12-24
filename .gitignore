@@ -1,0 +1,33 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# ===== Datasets / Images =====
+ALPR_datasets/
+external_datasets/
+raw_cars/
+*.jpg
+*.jpeg
+*.png
+
+# ===== YOLO / AI =====
+*.pt
+runs/
+outputs/
+uploads/
+
+# ===== Logs =====
+*.log
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Node / Frontend =====
+node_modules/
+build/
+dist/
